@@ -11,14 +11,14 @@ The NoSQL database includes NBA data, which includes player season totals, playe
 
 To create this application locally must create your own MySQL and MongoDB databases.
 
-MySQL: 
+MySQL (MySQL): 
 
 1. Created a MySQL database, add your connection to the Upload_Data.py script
 2. After the connection is added, run the script, ensure the sample data is in the same folder. 
 3. After the script is successsfully ran, all the sample data shoould be inserted into the MySQL DB you specified. 
 
 
-NoSQL:
+NoSQL (MongoDB):
 
 1. Created a MongoDB database, add your connection to the PyMongo.py script. Note the CSV2JSON script is only there if the data is in CSV format, we have already converted the data provided
 2. After the connection is added, run the script, ensure the sample data is in the same folder. 
