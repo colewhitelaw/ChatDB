@@ -1,6 +1,5 @@
 # Imports 
 from openai import OpenAI
-import openai
 from sqlalchemy import create_engine, text
 from pymongo import MongoClient
 import json
